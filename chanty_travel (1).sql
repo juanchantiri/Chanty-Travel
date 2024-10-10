@@ -75,14 +75,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `correo`, `telefono`) VALUES
-(1, 'juan', 'Chantiri', 'juaniemilio05@gmail.com', 2147483647),
-(2, 'Juan', '', 'juaniemilio05@gmail.com', 2147483647),
-(3, 'Juan', '', 'juaniemilio05@gmail.com', 2147483647),
-(4, 'Juan', '', 'juaniemilio05@gmail.com', 2147483647),
-(5, 'Juan', '', 'juaniemilio05@gmail.com', 2147483647),
-(6, 'Juan', '', 'juaniemilio05@gmail.com', 2147483647),
-(7, 'juan', '', 'juaniemilio05@gmail.com', 2147483647),
-(8, 'Juan', '', 'juaniemilio05@gmail.com', 2147483647);
+(1, 'juan', 'Chantiri', 'juaniemilio05@gmail.com', 2147483647);
 
 --
 -- Índices para tablas volcadas
