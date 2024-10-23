@@ -1,0 +1,20 @@
+<?php 
+include 'header.phtml';
+
+echo "<h2>Destinos:</h2>";
+echo "<ul class='destinos-db'>";
+foreach($destinos as $destino){ ?>
+
+        <li class = "lista_items">
+        <b><?php echo 'Pais' ?></b> | (<?php echo $destino -> pais ?>) </b>  
+        <b><?php echo 'Ciudad' ?></b> | (<?php echo $destino -> ciudad ?>) </b>
+        <b><?php echo 'Actividad' ?></b> | (<?php echo $destino -> actividad ?>) </b>
+        <b><?php echo 'Precio' ?></b> | (<?php echo $destino -> precio ?>) </b>                
+        <a href= "borrar/<?php echo $destino->id_destinos ?>" type = "button" class = 'btn btn-danger ml-auto borrar-destinos'>Borrar</a>
+        <a href= "mostrar/<?php echo $destino->id_destinos ?>" class = 'btn btn-primary'>visualizar</a>
+        </li>
+
+
+<?php }
+echo "</ul>";
+?>
