@@ -17,6 +17,6 @@ esta base de datos almacena los datos de los usuarios, destinos y reservas que n
 
 ACLARACION:
 
-el mail de administrador es: juaniemilio05@gmail.com
-la contraseña des-hasheada: chantiri55
+-El mail de administrador es: juaniemilio05@gmail.com
+-La contraseña des-hasheada: chantiri55
 
