@@ -1,0 +1,42 @@
+
+
+<?php include 'header.phtml'?>
+
+<form action="añadirDestinos" method ="POST" class="my-4" enctype= "multipart/form-data">
+    <div class="row">
+
+        <h3>Agregar Destinos</h3>
+        
+        <div class="col3">
+            <div class="form-group">
+                <label>Categoria</label>
+                <select name="categoria_id" id="categoria_id" class="form-control">
+                    <?php foreach ($categorias as $categoria) { ?>
+                        <option value="<?php echo $categoria->id; ?>">
+                            <?php echo $categoria->nombre; ?>
+                        </option>
+                    <?php } ?>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Pais</label>
+                <input name="pais"type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Ciudad</label>
+                <input name="ciudad"type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Actividad</label>
+                <input name="actividades"type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Precio</label>
+                <input name="precio"type="number" class="form-control">
+            </div>
+        </div>
+    </div>
+<button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>

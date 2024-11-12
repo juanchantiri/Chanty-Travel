@@ -1,0 +1,20 @@
+<?php 
+include 'header.phtml';
+?>
+        <div class ='listado_destinos'>
+            <a href="añadirFormCategorias">Añadir Categorias</a>
+        </div>
+        <h2>Categorias:</h2>
+
+        <ul class='categorias-db'>
+<?php foreach($categorias as $categoria){ ?>
+
+        <div class ='listado_destinos'>
+        <li class = "lista_items"><b><?php echo 'Categoria' ?></b> | (<?php echo $categoria -> nombre ?>) </b> </li>  
+        <a href= "borrarCategorias/<?php echo $categoria->id ?>" type = "button" class = 'btn btn-danger ml-auto borrar-destinos'>Borrar</a> 
+        <a href= "editarCategorias/<?php echo $categoria->id ?>" type = "button" class = 'btn btn-danger ml-auto editar-destinos'>Editar</a>           
+        </div>
+
+
+<?php } ?>
+</ul>

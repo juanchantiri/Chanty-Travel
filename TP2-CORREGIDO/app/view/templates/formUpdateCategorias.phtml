@@ -1,0 +1,16 @@
+<?php include 'header.phtml'?>
+
+
+<form action="editarCategorias/<?php echo $categorias[0]->id ?>" method ="POST" class="my-4">
+    <div class="row">
+        <h3>Editar Categoria</h3>
+            <div class="col3">
+                <div class="form-group">
+                    <label>Categoria</label>
+                    <input name="nombre" value = "<?php echo $categorias[0]->nombre ?>"type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+<button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>
