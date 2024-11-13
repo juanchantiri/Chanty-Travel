@@ -42,7 +42,7 @@ function actualizarCategorias($id){
     if ($_SERVER['REQUEST_METHOD']=='GET'){
         $categorias = $this->categorias_model->idCategorias($id);
         if(!$categorias){
-            echo 'el destino a editar no existe';
+            echo 'la categoria a editar no existe';
         }
         return $this->categorias_view->mostrarUpdateCategorias($categorias);
     }
