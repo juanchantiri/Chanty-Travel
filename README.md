@@ -12,7 +12,7 @@ esta base de datos almacena los datos de los usuarios, destinos y reservas que n
 # Tablas:
 . Usuarios
 . Destinos 
-. Categorias
+. Secciones(categorias)
 
 # USUARIO:
 
