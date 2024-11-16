@@ -16,6 +16,6 @@ esta base de datos almacena los datos de los usuarios, destinos y reservas que n
 
 # USUARIO:
 
--email:juaniemilio05@gmail.com
--pass:'chantiri55'
+- email:juaniemilio05@gmail.com           
+- pass:'chantiri55'
 
