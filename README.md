@@ -6,16 +6,16 @@ Chanty Travel es una agencia de viajes que se enfoca en ayudar a nuestros client
 esta base de datos almacena los datos de los usuarios, destinos y reservas que nuestros clientes necesiten llevar a cabo para emprender su viaje.
 
 # DIAGRAMA:
-![image](https://github.com/user-attachments/assets/a44ff8e8-e1bb-49e1-9b94-1b9bf1e077a8)
+![relaciones de tablas](https://github.com/user-attachments/assets/5afb65d7-5da7-4052-b1b2-073784995684)
 
 
 # Tablas:
 . Usuarios
 . Destinos 
-. Reservas
 . Categorias
 
-# ACLARACION:
+# USUARIO:
 
-. El mail de administrador es: juaniemilio05@gmail.com y la contraseña des-hasheada: chantiri55
+email:'juaniemilio05@gmail.com'
+pass:'chantiri55'
 
